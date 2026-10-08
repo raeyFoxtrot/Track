@@ -206,7 +206,7 @@ body.edition-viewer-open{overflow:hidden}
         image.alt = `Last edition event photograph ${number}`;
         image.loading = number <= 3 ? "eager" : "lazy";
         image.decoding = "async";
-        image.src = `assets/${number}.jpg`;
+        image.src = `assets/${number}.JPG`;
 
         image.addEventListener("error", () => {
           image.hidden = true;
